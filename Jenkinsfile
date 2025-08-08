@@ -9,7 +9,7 @@ pipeline {
 <<<<<<< HEAD
     stage('STAGE2') {
       steps {
-        bat '"C:\\Windows\\System32\\cmd.exe" /c python hello.py'
+        bat '"C:\\Windows\\System32\\cmd.exe" /c python --version'
 =======
     stage('hello') {
       steps {
@@ -20,3 +20,4 @@ pipeline {
   }
 
 }
+
